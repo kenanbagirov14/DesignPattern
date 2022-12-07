@@ -29,8 +29,8 @@ class DatabaseCreator
         _connection = databaseFactory.CreateConnection();
         _command = databaseFactory.CreateCommand();
 
-        var TAW = databaseFactory.GetType().Name;
-        var TA = databaseFactory.GetType().Name.Replace("DatabaseFactory", "");
+        var typeName = databaseFactory.GetType().Name;
+        var typeNameReplace = databaseFactory.GetType().Name.Replace("DatabaseFactory", "");
         Database db = new Database()
         {
             Command = _command,
