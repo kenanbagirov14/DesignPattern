@@ -1,15 +1,15 @@
 ﻿
 //Abstract Product
 //Concrete Factory
-class MsSqlDatabaseFactory : DatabaseFactory
+class MsSqlDatabaseFactory : ADatabaseFactory
 {
-    public override Command CreateCommand()
+    public override ACommand CreateCommand()
     {
         MsSqlCommand command = new();
         return command;
     }
 
-    public override Connection CreateConnection()
+    public override AConnection CreateConnection()
     {
         MsSqlConnection connection = new();
         //connection string set

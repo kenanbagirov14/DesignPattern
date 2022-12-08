@@ -1,7 +1,7 @@
 ﻿
 //Abstract Product
 //Concrete Product
-class MySqlConnection : Connection
+class MySqlConnection : AConnection
 {
     public override ConnectionState State { get; set; }
 

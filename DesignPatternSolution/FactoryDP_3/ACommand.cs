@@ -1,7 +1,7 @@
 ﻿
 //Abstract Product
 //Abstract Product
-abstract class Command
+abstract class ACommand
 {
     public abstract void Execute(string query);
 }

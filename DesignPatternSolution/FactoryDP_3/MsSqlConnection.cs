@@ -1,7 +1,7 @@
 ﻿
 //Abstract Product
 //Concrete Product
-class MsSqlConnection : Connection
+class MsSqlConnection : AConnection
 {
     public override ConnectionState State { get; set; }
 

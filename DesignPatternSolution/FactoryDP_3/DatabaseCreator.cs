@@ -3,7 +3,7 @@
 //Creator
 class DatabaseCreator
 {
-    public Database Create(DatabaseFactory databaseFactory)
+    public Database Create(ADatabaseFactory databaseFactory)
     {
         return new Database()
         {

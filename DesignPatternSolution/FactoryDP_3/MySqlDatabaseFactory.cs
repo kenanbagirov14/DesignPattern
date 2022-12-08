@@ -1,15 +1,15 @@
 ﻿
 //Abstract Product
 //Concrete Factory
-class MySqlDatabaseFactory : DatabaseFactory
+class MySqlDatabaseFactory : ADatabaseFactory
 {
-    public override Command CreateCommand()
+    public override ACommand CreateCommand()
     {
         MySqlCommand command = new();
         return command;
     }
 
-    public override Connection CreateConnection()
+    public override AConnection CreateConnection()
     {
         MySqlConnection connection = new();
         //connection string set

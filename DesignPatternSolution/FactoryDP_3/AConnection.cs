@@ -1,6 +1,6 @@
 ﻿
 //Abstract Product
-abstract class Connection
+abstract class AConnection
 {
     public abstract bool Connect();
     public abstract bool DisConnect();

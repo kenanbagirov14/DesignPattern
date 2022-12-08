@@ -1,7 +1,7 @@
 ﻿
 //Abstract Product
 //Concrete Product
-class MySqlCommand : Command
+class MySqlCommand : ACommand
 {
     public override void Execute(string query)
     {
