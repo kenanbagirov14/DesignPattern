@@ -11,9 +11,4 @@ namespace FactoryDP
         void TransportName();
         void TransportNumber();
     }
-
-    public interface ITransportFactory
-    {
-        ITransport Create(TransportTypes transportType);
-    }
 }
